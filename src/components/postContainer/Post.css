@@ -1,0 +1,163 @@
+.postContainer {
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+    /* color: #626262; */
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.subPostContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.user-profile {
+    display: flex;
+    align-items: center;
+}
+
+.user-profile img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.user-profile p {
+    margin-bottom: -5px;
+    font-weight: 500;
+    color: #626262;
+}
+
+.user-profile small {
+    font-size: 12px;
+}
+
+.post-text {
+    text-align: start;
+    width: 94%;
+    margin: 5px 2%;
+}
+
+.post-image {
+    margin-top: 10px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.postRow {
+    /* display: flex; */
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: -10px;
+    margin-top: -5px;
+}
+
+.activityIcons{
+  display: flex;
+  
+  justify-content: space-around;
+  align-items: center;
+  margin: 10px auto;
+}
+
+.dislikeIcon {
+    color:blue;
+}
+
+.likeIcon {
+    color: red;
+}
+
+
+
+.activityContainer {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.activityContainer i{
+    width: 15%;
+    font-size: 20px;
+}
+
+.activityContainer p {
+    width: 80%;
+}
+
+/* .activityIcons div img {
+    width: 28px;
+    margin-right: 10px;
+}
+
+.activityIcons div p {
+    margin-top: 10px;
+} */
+
+.commentInput {
+    margin-left: 10px;
+    /* margin-bottom: -40px; */
+    /* border: 1px solid black; */
+    padding: 4px;
+    width: 220px;
+    /* width: 120%; */
+}
+
+.PostImage {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+
+/* comment section css */
+.commentbox{
+    margin-left: 30px;
+    margin-top: -30px;
+}
+
+.tip {
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    background: transparent;
+    border: 10px solid #ccc;
+  }
+
+  .tip-left {
+    top: 10px;
+    left: -25px;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-bottom-color: transparent;  
+  }
+
+  .commentbox .commentbody {
+    position: relative;
+    /* max-width: 300px; */
+    width: 90%;
+    height: auto;
+    margin: 20px 10px;
+    /* padding: 5px; */
+    background-color: #DADADA;
+    border-radius: 3px;
+    border: 5px solid #ccc;
+  }
+  
+  .commentbody .message {
+    min-height: 30px;
+    border-radius: 3px;
+    font-family: Arial;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #797979;
+  }
+
+  .addComment {
+    float: right;
+    margin-right: -10px;
+  }

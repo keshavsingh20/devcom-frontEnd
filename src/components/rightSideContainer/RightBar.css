@@ -1,0 +1,97 @@
+.rightbar {
+    /* background-color: white; */
+    /* flex-basis: 23%; */
+    position: sticky;
+    /*for not moving */
+    top: 70px;
+    /* align-self: flex-start; */
+    /* height: 100vh; */
+    /* margin-left: 2%; */
+}
+
+.rightContainer {
+    background-color: white;
+    border-radius: 10px;
+    width: 100%;
+    padding: 5px;
+}
+
+.rightContainer2 {
+    background-color: white;
+    border-radius: 10px;
+    width: 100%;
+    margin-top: 20px;
+    padding: 5px;
+  
+}
+
+.adsContainer {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    /* margin-bottom: 5px; */
+}
+
+.adsContent {
+   margin-left: 30px;
+} 
+
+.adsImage {
+    /* width: 130px; */
+    /* margin-left: 10px; */
+    width: 50%;
+    height: 40%;
+    object-fit: cover;
+}
+
+
+.adsTitle {
+    text-align: start;
+    font-weight: 500;
+    /* margin-left: 20px;
+    margin-top: 10px; */
+}
+
+.adsDesc {
+    text-align: start;
+    /* margin-left: 20px; */
+    color: #aaa;
+    /* margin-top: -20px; */
+    font-size: 12px;
+}
+
+/* .divider {
+    background-color: #aaa;
+    margin-top: 5px;
+    height: 2px;
+    margin-bottom: 10px;
+} */
+
+
+
+
+@media(max-width:1000px) { 
+    .adsImage {
+        width: 40%;
+    }
+
+    .adsContent {
+        margin-left: 10px;
+     } 
+}
+
+@media (max-width:768px) {
+
+    .adsImage {
+        width: 50%;
+    }
+
+    .adsContent {
+        margin-left: 20px;
+     } 
+
+}
+
+@media(max-width:600px) { 
+   
+}

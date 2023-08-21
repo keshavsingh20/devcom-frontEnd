@@ -1,0 +1,34 @@
+.profileContainer {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px;
+}
+
+
+@media(max-width:1000px) { 
+    .profileContainer {
+        margin-top: 80px;
+    }
+}
+
+
+@media (max-width:768px) {
+    .left, .right {
+        display: none;
+    }
+
+    .profileContainer {
+        margin: 0 auto;
+        margin-top: 10px;
+        display: block;
+        width: 95%;
+    }
+    .profileContainer {
+        margin-top: 80px;
+    }
+
+}
+
+@media(max-width:600px) { 
+   
+}

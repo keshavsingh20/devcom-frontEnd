@@ -1,0 +1,129 @@
+.mainChatContainer {
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    height: 80vh;
+   
+}
+
+.userInfo {
+    display: flex;
+    align-items: center;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+.ChatUserImg {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.userInfo p {
+    margin-left: 20px;
+}
+
+.chatContainer {
+    height: 60vh;
+    overflow: hidden;
+    overflow-y: scroll;
+    margin-top: 5px;
+}
+
+
+.messageContainer {
+    display: flex;
+    align-items: center;
+    background-color: rgb(241, 243, 241);
+    width: 70%;
+    border-radius: 10px;
+    margin-bottom: 8px;
+}
+
+.message {
+    margin-left: 20px;
+}
+
+.messageReplyContainer {
+    float: right;
+    display: flex;
+    margin-right: 20px;
+    align-items: center;
+    background-color: rgb(241, 243, 241);
+    width: 70%;
+    border-radius: 10px;
+    margin-bottom: 8px;
+}
+
+
+.messageReplyContainer p {
+    margin-left: 10px;
+    padding: 5px;
+}
+
+
+.messageReplyContainer .ChatUserImg {
+    margin-right: 10px;
+
+}
+
+.msgInputContainer {
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: space-between; */
+}
+
+.msgInput {
+    margin-top: 20px;
+    width: 60%;
+   background-color: #f2f2f2;
+    padding: 5px;
+    font-size: 14px;
+}
+
+.chatIcons {
+    width: 20px;
+    height: 20px;
+    margin-bottom: -5px;
+    margin-left: 20px;
+}
+
+.sendBtn {
+    padding: 5px 15px;
+    margin-right: 5px;
+    margin-left: 10px;
+}
+
+.sendBtn i {
+    font-size: 16px;
+}
+
+
+@media(max-width:1000px) {
+    .msgInput {
+        width: 60%;
+    }
+
+    .chatIcons {
+        margin-left: 10px;
+    }
+}
+
+
+@media (max-width:768px) {
+.ChatHolder {
+    width: 100%;
+}
+  .chatLeft, .chatRight{
+      width: 100%;
+      border-radius: 10px;
+      margin-bottom: 10px;
+  }
+}
+
+@media(max-width:600px) { 
+ 
+}

@@ -1,0 +1,85 @@
+.suggestionContainer2 {
+    background-color: white;
+    border-radius: 10px;
+    width: 100%;
+    margin-top: 20px;
+    padding: 5px;
+    height: 290px;
+    overflow: hidden;
+}
+
+.suggestion {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    /* margin-top: -5px; */
+    
+    margin-bottom: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    /* background-color: #394867; */
+}
+
+.suggstionInfo {
+    /* display: flex;
+    align-items: center; */
+    margin-left: 10px;
+}
+
+.suggestionImage {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.suggestionData {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* margin-left: 10px; */
+    justify-content: space-between;
+}
+
+.friendName {
+    margin-right: 5px;
+    text-align: start;
+}
+
+.friendSuggestion {
+    color: #aaa;
+    font-size: 15px;
+    /* margin-top: -20px; */
+}
+
+.reqIcon {
+    background-color: #aaa;
+    border-radius: 50%;
+    margin-right: 10px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.friendIcon {
+    width: 27px;
+    height: 27px;
+}
+
+
+@media(max-width:1000px) { 
+
+}
+
+@media (max-width:768px) {
+    .suggestion {
+        margin-bottom: 5px;
+    }
+
+    .suggestionImage {
+        width: 50px;
+        height: 50px;
+    }
+}
+
+@media(max-width:600px) { 
+   
+}

@@ -1,0 +1,109 @@
+/* common css */
+
+.left, .right {
+  width: 25%;
+  /* height: max-content; */
+  /* position: sticky;
+  height: fit-content; */
+  min-height: calc(100vh - 60px);
+  position: relative;
+  /* background: green; */
+  padding: 10px 0 10px 0;
+  z-index: 10;
+
+}
+
+.center {
+  width: 35%;
+  padding: 10px;
+}
+
+.left, .right, .center{
+  /* background-color: green; */
+  border-radius: 10px;
+
+}
+
+.imp-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.title {
+  margin-left: 20px;
+  font-size: 20px;
+}
+
+.sublink {
+  text-decoration: none;
+  color: #aaa;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.divider {
+  /* margin-top: 10px; */
+  background-color: #aaa;
+  margin-top: 5px;
+  height: 2px;
+  margin-bottom: 10px;
+}
+
+.btn {
+  padding: 8px 25px;
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+.btn-primary {
+  background-color: blue;
+  color: white;
+  font-size: 14px;
+}
+
+.btn-primary:hover {
+  background-color: rgb(3, 3, 128);
+}
+
+.btn-danger {
+  background-color: red;
+  color: white;
+  font-size: 13px;
+}
+
+.btn-danger:hover {
+  background-color: rgb(170, 4, 4);
+}
+
+.btn-success {
+  background-color: green;
+  color: white;
+  font-size: 13px;
+}
+
+.btn-success:hover {
+  background-color: rgb(1, 73, 1);
+}
+
+
+
+@media(max-width:1000px) { 
+
+}
+
+
+@media (max-width:768px) {
+
+  .left, .right, .center {
+      width: 100%;
+      border-radius: 10px;
+      margin-bottom: 10px;
+  }
+}
+
+@media(max-width:600px) { 
+ 
+}
